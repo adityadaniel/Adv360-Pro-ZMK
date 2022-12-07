@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE              &kp N1     &kp N2         &kp N3           &kp N4     &kp N5            &kp LEFT_PARENTHESIS             &kp RPAR            &kp N6    &kp N7     &kp N8         &kp N9       &kp N0      &none
-   &kp TAB               &kp Q      &kp W          &kp E            &kp R      &kp T                        &kp LBKT             &kp RBKT             &kp Y     &kp U      &kp I          &kp O        &kp P  &kp MINUS
-   &kp ESC               &kp A      &kp S          &kp D            &kp F      &kp G                        &kp LBRC  &mt LCTRL LG(SPACE)  &mt LALT LG(TAB)                            &kp LGUI    &kp RCTRL   &kp RBRC     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
- &kp LSHFT               &kp Z      &kp X          &kp C            &kp V      &kp B                           &none                &none  &kp LG(LS(LBKT))     &none      &none      &kp PG_UP        &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp BSLH  &kp EQUAL
-     &mo 4  &macro_macro_grave  &kp LCTRL  &mt LALT DOWN  &mt LEFT_GUI UP  &kp ENTER                        &kp LGUI     &kp LG(LS(RBKT))         &kp PG_DN  &kp BSPC  &kp SPACE  &mt RGUI DOWN  &mt LALT UP  &kp RCTRL  &kp FSLH   &mo 1
+ &kp GRAVE              &kp N1     &kp N2         &kp N3           &kp N4            &kp N5            &kp LEFT_PARENTHESIS             &kp RPAR            &kp N6     &kp N7    &kp N8         &kp N9       &kp N0      &none
+   &kp TAB               &kp Q      &kp W          &kp E            &kp R             &kp T                        &kp LBKT             &kp RBKT             &kp Y      &kp U     &kp I          &kp O        &kp P  &kp MINUS
+   &kp ESC               &kp A      &kp S          &kp D            &kp F             &kp G                        &kp LBRC  &mt LCTRL LG(SPACE)  &mt LALT LG(TAB)                            &kp LGUI    &kp RCTRL   &kp RBRC     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT               &kp Z      &kp X          &kp C            &kp V             &kp B                           &none                &none  &kp LG(LS(LBKT))      &none     &none      &kp PG_UP        &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
+     &mo 4  &macro_macro_grave  &kp LCTRL  &mt LALT DOWN  &mt LEFT_GUI UP  &kp LEFT_COMMAND                       &kp ENTER     &kp LG(LS(RBKT))       &lt 4 PG_DN  &kp SPACE  &kp BSPC  &mt RGUI DOWN  &mt LALT UP  &kp RCTRL  &kp BSLH   &mo 1
             >;
         };
 

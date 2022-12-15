@@ -81,9 +81,9 @@
             bindings = <
  &trans  &kp LC(LG(N1))   &kp LC(LG(NUMBER_2))                 &trans  &trans       &kp LC(NUMBER_5)            &trans  &trans  &kp LC(NUMBER_6)             &trans  &trans        &trans        &trans  &trans
  &trans          &trans                 &trans                 &trans  &trans  &kp LG(LA(LC(LS(T))))            &trans  &trans            &trans  &kp LG(LA(LC(U)))  &trans        &trans        &trans  &trans
- &trans          &trans                 &trans          &kp LG(LC(J))  &trans      &kp LG(LC(LA(G)))            &trans  &trans            &trans                                   &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans          &trans  &kp LG(LA(LC(LS(X))))  &kp LG(LA(LC(LS(C))))  &trans                 &trans            &trans  &trans            &trans             &trans  &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans          &trans                 &trans                 &trans  &trans                 &trans            &trans  &trans            &trans             &trans  &trans  &kp C_VOL_DN  &kp C_VOL_UP  &trans  &trans  &trans
+ &trans          &trans                 &trans          &kp LG(LC(J))  &trans      &kp LG(LC(LA(G)))            &trans  &trans            &trans                                   &trans        &trans  &trans  &kp LA(LEFT)  &trans  &trans  &kp LA(RIGHT)  &trans  &trans
+ &trans          &trans  &kp LG(LA(LC(LS(X))))  &kp LG(LA(LC(LS(C))))  &trans                 &trans            &trans  &trans            &trans             &trans  &trans        &trans        &trans  &trans        &trans  &trans  &trans         &trans  &trans  &trans
+ &trans          &trans                 &trans                 &trans  &trans                 &trans            &trans  &trans            &trans             &trans  &trans  &kp C_VOL_DN  &kp C_VOL_UP  &trans        &trans  &trans
             >;
         };
 
